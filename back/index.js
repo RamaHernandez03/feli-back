@@ -7,7 +7,7 @@ const nodemailer = require("nodemailer");
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:3000", 
+  rigin: ["http://localhost:3000", "https://escribanialariva.com/"],
   methods: "POST",
   allowedHeaders: "Content-Type"
 }));
